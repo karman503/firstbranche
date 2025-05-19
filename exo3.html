@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h2>Informations personnelles</h2>
+
+    <form action="traitement.php" method="post">
+        <label for="nom">Votre nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="prenom">Votre prénom :</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <label for="email">Votre e-mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="type_bac">Veuillez indiquer votre type de bac :</label>
+        <select id="type_bac" name="type_bac">
+            <option value="S">Bac S</option>
+            <option value="ES">Bac ES</option>
+            <option value="L">Bac L</option>
+            <option value="STT">Bac STT</option>
+            <option value="STI">Bac STI</option>
+        </select><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+    <h2>Créer un formulaire</h2>
+
+    <form action="traitement.php" method="post" enctype="multipart/form-data">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="pseudo">Pseudo (login) :</label>
+        <input type="text" id="pseudo" name="pseudo" required><br><br>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="password_confirm">Mot de passe (recommencer) :</label>
+        <input type="password" id="password_confirm" name="password_confirm" required><br><br>
+
+        <label for="photo">Fichier (photo) :</label>
+        <input type="file" id="photo" name="photo" accept="/.png /.gif"><br><br>
+
+        <button type="submit">Soumettre</button>
+    </form>
+
+    
+    <h2>Informations personnelles</h2>
+
+    <form action="ex3.html" method="get">
+        <!-- Nom avec raccourci clavier Alt+Maj+M -->
+        <label for="nom"><span style="text-decoration:underline;">M</span>on nom :</label>
+        <input type="text" id="nom" name="nom" accesskey="m" tabindex="1" required><br><br>
+
+        <!-- Prénom avec raccourci clavier Alt+Maj+P -->
+        <label for="prenom"><span style="text-decoration:underline;">P</span>rénom :</label>
+        <input type="text" id="prenom" name="prenom" accesskey="p" tabindex="2" required><br><br>
+
+        <!-- Email avec raccourci clavier Alt+Maj+E -->
+        <label for="email"><span style="text-decoration:underline;">E</span>-mail :</label>
+        <input type="email" id="email" name="email" accesskey="e" tabindex="3" required><br><br>
+
+        <!-- Choix du type de bac avec menu déroulant -->
+        <label for="type_bac">Veuillez indiquer votre type de bac :</label>
+        <select id="type_bac" name="type_bac" tabindex="4">
+            <option value="S">Bac S</option>
+            <option value="ES">Bac ES</option>
+            <option value="L">Bac L</option>
+            <option value="STT">Bac STT</option>
+            <option value="STI">Bac STI</option>
+        </select><br><br>
+
+        <!-- Boutons radio pour choisir une filière -->
+        <p>Choisissez votre filière :</p>
+        <input type="radio" id="filiere_sciences" name="filiere" value="sciences" tabindex="5">
+        <label for="filiere_sciences">Sciences</label>
+
+        <input type="radio" id="filiere_economie" name="filiere" value="economie" tabindex="6">
+        <label for="filiere_economie">Économie</label>
+
+        <input type="radio" id="filiere_litterature" name="filiere" value="litterature" tabindex="7">
+        <label for="filiere_litterature">Littérature</label><br><br>
+
+        <!-- Bouton Soumettre avec redirection vers ex3.html -->
+        <button type="submit" tabindex="8">Envoyer</button>
+    </form>
+
+</body>
+</html>

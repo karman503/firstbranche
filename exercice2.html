@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Inscription</h2>
+        <form method="post" action="post">
+            <label for="nom">Nom/prenom</label>
+            <input type="text" id="nom" name="nom" maxlength="170" required><br><br>
+            <label for="cin">CIN</label>
+            <input type="text" id="cin" name="CIN" maxlength="70" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <dl>
+                <dt>Niveau</dt>
+                <dd>
+                    <label for="s">secondaire</label>
+                    <input type="radio" id="s" name="niveau" value="secondaire">
+                    <label for="l">lycee</label>
+                    <input type="radio" id="l" name="niveau" value="lycee">
+                    <label for="u">universite</label>
+                    <input type="radio" id="u" name="niveau" value="universite">
+
+                </dd>
+            </dl>
+            
+        </form>
+    </body>
+</html>

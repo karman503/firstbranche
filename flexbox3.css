@@ -1,0 +1,140 @@
+main {
+    display: flex;
+}
+
+header {
+    text-align: center;
+    background-color: aqua;
+    height: 20vh;
+}
+
+main {
+    height: 80vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main div.sect {
+    width: 80%;
+    border: 2px solid black;
+
+}
+
+main nav {
+    height: 30vh;
+    margin: 2px 5px;
+    border: 2px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main div.sect section {
+    /* border: 2px solid violet; */
+    background-color: #ffffff;
+    height: 38vh;
+}
+
+
+main div.sect section:first-child {
+
+    /* height: 35vh; */
+    display: flex;
+
+    margin-bottom: 10px;
+
+
+
+}
+
+div.section1 {
+    width: 60%;
+}
+
+div.section1 article {
+    /* border: 2px solid violet; */
+    height: 35vh;
+    background-color: #1219eb;
+
+}
+
+div.section11 {
+    width: 40%;
+    /* border: 2px solid violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside {
+    background-color: #ca0e0e;
+    width: 300px;
+    height: 100px;
+}
+
+
+div.section11 {
+    padding-top: 20px;
+}
+
+
+div.section11 aside:first-child {
+    margin-bottom: 5px;
+    /* width: 30vh;
+    height: 18vh;
+    border: 2px solid; */
+}
+
+main div.sect section:last-child {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main div.sect section:last-child div {
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    /* border: 2px solid violet; */
+    margin-top: 50px;
+}
+
+/* 
+div.section1 {
+    margin-top: 2px 2px;
+    width: 60vh;
+    height: 38vh;
+    border: 2px solid;
+    margin: 2px;
+}
+
+div.section11 {
+    display: block;
+    align-items: end;
+}
+
+
+div.section11 aside:last-child {
+    margin-top: 2px;
+    width: 30vh;
+    height: 18vh;
+    border: 2px solid;
+}
+
+
+
+section:last-child aside {
+    border: 2px solid;
+} */
+
+
+
+footer {
+    text-align: center;
+    background-color: bisque;
+    height: 20vh;
+}

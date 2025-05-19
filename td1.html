@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="texte de couleur">
+        <meta name="author" content="Karman">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="keywords" content="barre de couleur">
+        <title>Seance 1</title>
+    </head>
+    <body >
+      <form>
+        <table width="100%" border="3">
+          <tr>
+            <td width="20%">Civilité</td>
+            <td width="40%">
+              <form>
+                <label for="mademoiselle">Mademoiselle</label>
+                <input type="radio" id="mademoiselle" name="genre" value="mademoiselle">
+                <label for="madame">Madame</label>
+                <input type="radio" id="madame" name="genre" value="madame">
+                <label for="monsieur">Monsieur</label>
+                <input type="radio" id="monsieur" name="genre" value="genre"> 
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%">Nom/prenom</td>
+            <td width="40%">
+              <form>
+                <label for="nom/prenom">Entrer le nom</label>
+                <input type="text" id="nom/prenom" name="nom" placeholder="Nom/prenom..." required>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%">Adresse</td>
+            <td width="40%">
+              <label for="adresse">Entrer l'adresse</label>
+              <input type="text" id="adresse" name="Adresse" required >
+            </td>
+          </tr>
+          <tr>
+            <td width="20%">
+              pays
+            </td>
+            <td width="40%">
+              <label for="pays">Pays</label>
+              <select id="pays" name="Pays" size="1">
+                <option value="Djibouti">Djibouti</option>
+                <option value="Danemark">Danemark</option>
+                <option value="Ethipie">Ethiopie</option>
+                <option value="USA">Etats-unis</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%">Plateforme</td>
+            <td width="40%">
+              <form>
+                <label for="windows">Windows</label>
+                <input type="checkbox" id="windows" name="plateforme" value="windows">
+                <label for="Macintosh">Macintosh</label>
+                <input type="checkbox" id="Macintosh" name="macintosh" value="Macintosh">
+                <label for="Unix">Unix</label>
+                <input type="checkbox" id="Unix" name="unix" value="Unix">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td width="20%">
+              Application(s)
+            </td>
+            <td width="40%">
+              <select name="Application" size="4">
+                <option value="Bureautique">Bureautique</option>
+                <option value="DA0">DAO</option>
+                <option value="Statique">Statique</option>
+                <option value="internet">Internet</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <div style="background-color: grey; margin :5 ; padding: 10; text-align: right;"><input type="submit" value="Envoyer"> <input type="reset" value="annuler"></div>
+      </form>
+    </body>
+</html>

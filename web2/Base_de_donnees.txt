@@ -1,0 +1,46 @@
+  creation des tables:
+	
+	*create table etudiant(
+ 	numero_etudiant int primary key,
+	mot_passe_etudiant varchar(20),
+	sexe_etudiant varchar(20),
+	filiere_etudiant varchar(20),
+	addresse_etudiant varchar(20),
+	niveau_etudiant int,
+	num_filiere int  refences filiere(num_filiere),
+	num_note int references note(num_note));
+
+	*create table filiere(
+	num_filiere int primary key,
+	nom_filiere varchar(20));
+	
+	*create table note(
+	num_note int primary key,
+	controle_continue float,
+	controle_finale float,
+	semestre int,
+	annee int,
+	code_module references module(code_module));
+	
+	*create table enseignant(
+	numero_enseignant int primary key,
+	nom_enseignant varchar(20),
+	sexe_enseignant varchar(20),
+	email_enseignant varchar(20),
+	telmobile_enseignant int,
+	telfixe_enseignant int,
+	adresse_enseignant varchar(20),
+	grade_enseignant varchar(20));
+
+	*create table module(
+	code_module int primary key,
+	coeff_module int,
+	volume_module int));
+	
+	*create table enseigner(
+	num_module references module(Code_module),
+	num_enseignant references enseignant(numero_enseignant));
+	
+	
+	
+  

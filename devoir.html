@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ceci est le devoir a faire à la maison">
+        <meta name="author" content="Karman">
+        <meta name="keyword" content="html , balise , attribut , formulaire , cadre">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>TP1</title>
+    </head>
+    <body bgcolor="white">
+        <center><b><h2>CHAPITRE 2</h2></b></center>
+        <center><b><h1>LANGAGE HTML</h1></b></center>
+        <h3>PLAN DU CHAPITRE</h3>
+        <ol type="1.">
+            <li><h4>INTRODUCTION</h4></li>
+            <li><h4>TEXTE</h4></li>
+            <li><h4>TITRE ET LISTES</h4></li>
+            <li><h4>LIENS</h4></li>
+            <li><h4>IMAGES</h4></li>
+            <li><h4>ARRIERE PLAN</h4></li>
+            <li><h4>TABLEAU</h4></li>
+            <li><h4>FORMULAIRE</h4></li>
+            <li><h4>CADRES</h4></li>
+        </ol>
+        <ol type="1.">
+            <li>
+                <h3>INTRODUCTION</h3>
+                <p>
+                    HTML est le langage universel utilisé pour communiquer sur le Web.
+                    Votre information sera ainsi transportée sur cette gigantesque toile de
+                    réseaux interconnectés qu'est Internet, pour aboutir sur l'ordinateur de
+                    votre lecteur grâce à un programme appelé navigateur ou browser.
+                </p>
+                <p>
+                    Ce logiciel, que l'on appelle un browser ou navigateur, vous permet de
+                    surfer sur le Net et d'afficher sur votre écran les pages qu'il a
+                    interceptées.
+                </p>
+                <p>
+                    Il y a, hélas, beaucoup de marques et de types de browsers différents.
+                    Des simples, des archaïques ou des sophistiqués... Les plus connus sont
+                    FireFox de Mozilla, Internet Explorer de Microsoft et Netscape dans sa
+                    version 2, 3 et 4.
+                </p>
+            <ol type="1.1">
+                <li>
+                    <h3>QU’EST CE QUE LE LANGAGE HTML</h3>
+                    Le langage Html étant un ensemble de balises et d'attributs, il nous paraît utile
+                    sinon indispensable de les passer en revue et surtout de les visionner au moins
+                    une fois car :
+                    <ul type="square">
+                        <li>
+                            si les éditeurs Html vous faciliteront grandement la tâche, ils ne sont pas toujours
+                            parfaits surtout lors des modifications, annulations ou suppressions en cours de
+                            travail. Il vous faudra bien alors vous plonger dans le code source pour corriger les
+                            dysfonctionnements.
+                        </li>
+                        <li>
+                            les codes source de vos pages préférées sont disponibles (et sans copyright). Il est
+                            alors possible de s'en inspirer pour reprendre le procédé sans avoir à réinventer.
+                        </li>
+                        <li>
+                            ces mêmes éditeurs Html vous proposeront des termes comme" En-tête, Heading,
+                            Cell spacing, Numered List..." qui sont propres au langage Html.
+                        </li>
+                        <li>
+                            vous aurez besoin d'une connaissance pointue du Html pour inclure les codes du
+                            PHP, Javascript ou VBscript dans vos pages.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>PREMIÈRES BALISES</h3>
+                    <p>
+                        < HTML> Ceci est le début d'un document de type HTML.<br>
+                        < /HTML> Ceci est la fin d'un document de type HTML.<br>
+                        < head> Ceci est le début de la zone d'en-tête (prologue au document proprement dit contenant des informations destinées au browser).<br>
+                        < TITLE> Ceci est la fin de la zone d'en-tête.<br>
+                        < /TITLE> Ceci est le début du titre de la page.<br>
+                        < BODY> Ceci est la fin du titre de la page.<br>
+                        < /BODY>  Ceci est la fin du document proprement dit.<br>
+                        <ul type="square">
+                            <li>
+                                Vous aurez remarqué qu'à chaque balise de début d'une action, soit < ...>,correspond (en toute logique) une balise de fin d'une action </...>.
+                            </li>
+                            <li>
+                                Vous noterez aussi que les balises ne sont pas "case sensitive". Il est donc équivalent d'écrire < HTML>, < html>, < Html>, etc
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <h3>PREMIER PAS HTML:</h3>
+
+                        - Ouvrir l'éditeur de texte<br>
+                        - Ecrire les codes Html suivants:<br>
+                        < HTML><br>
+                        < HEAD><br>
+                        < TITLE>premier pas < /TITLE><br>
+                        < /HEAD><br>
+                        <img src="asc.png" alt="image d'exécution de balise de base pour le html"  align="right"  width="25%">
+                        < BODY> bienvenue sur ma page web<br>
+                        < /BODY><br>
+                        < /HTML><br>
+                        - Enregistrer le document avec l'extension .html ou .htm.<br>
+                        -cliquer sur la page web pour visualiser<br>
+                </li>
+            </ol>
+        </li>
+    <li>
+        <h3>TEXTE</h3>
+        <p>Tout document Html contiendra en majorité du texte. Voyons comment l'agrémenter par quelques balises élémentaires.</p>
+        <ul type="square">
+            <li>Gras [Bold] < B>...< B>< STRONG>...< STRONG> Début et fin de zone en gras</li>
+            <li>Italique [Italic] < I>...< /I> Début et fin de zone en italique</li>
+            <li>Souligner [Underligne] < U>……..<  /U> Début et fin de zone souligné</li>
+            <li>Police [Font face] < FONT face="Times New Roman">< /FONT>Début et fin de zone en police Times New Roman</li>
+            <li>Taille de caractère [Font size] < FONT SIZE=?>...< /FONT> Début et fin de zone avec cette taille</li>
+            <li>Couleur de caractère [Font color] < FONT COLOR="#0000FF">< /FONT>Début et fin de zone avec cette couleur</li>
+            <li>A la ligne [Line break] < BR> Aller à la ligne</li>
+            <li>Commentaires [Comments] < !-- *** --> Ne pas afficher</li>
+            <li>Centrage [Center] < CENTER>< /CENTER> Centrer</li>
+            <li>Pour aligner du texte < DIV align=left>...< /DIV> < DIV align=center>...< /DIV> < DIV align=right>...< /DIV></li>
+            <p>Voici les codes de quelques couleurs basiques</p>
+            <li>Bleu #0000FF Vert #00FF00</li>
+            <li>Blanc #FFFFFF Violet #8000FF</li>
+            <li>Rouge #FF0000 Jaune #FFFF00</li>
+            <li>Gris clair #C0C0C0 Noir #000000</li>
+        </ul>
+    </li>
+    <li>
+        <h3>LES TITRES ET LES LISTES</h3>
+        <p>Tout document d'une certaine consistance se doit de présenter, par exemple dans la table des
+        matières, les différents niveaux de son exposé. 
+        Html a disposé dès son origine d'outils spécialement conçus à cet effet</p>
+        <ul type="square">
+            <li>En-têtes [Heading] < Hn></ Hn> avec n=1 à 6 Afficher une en-tête de niveau n et sauter une ligne</li>
+            <li>Liste non-ordonnée [Bullet list] < UL>< /UL> Afficher le texte sous forme d'une liste non-ordonnée
+            < UL type=”square”>< /UL> = ; ; < UL type=“disc”>< /UL> = ; < UL type=“circle”>< /UL> = < /li>
+            <li>Liste ordonnée [Numbered list] < OL>< /OL> Afficher le texte sous forme d'une liste ordonnée.
+            < OL type= “1”>< /OL> ; < OL type= “I”>< /OL> ; < OL type= “A”>< /OL> </li>
+            <li>Elément de liste [List items] < LI> Voici un élément de la liste</li>
+            <li>Paragraphe [Paragraph] < P>< /P> Saut de ligne, insérer une ligne vierge et commencer un paragraphe</li>
+            <p>Exemple:</p>
+            <li>< H1>Les mois du printemps< /H1></li>
+            <li>< UL type= "disc">< LI>avril</li>
+            <li>< LI>mai</li>
+            <li>< LI>juin< /UL></li>
+            <img src="acs.png" alt="image d'exécution de balise de base pour le html"  align="right"  width="25%">
+            <li>< P></li>
+            <li>< H3>Les mois d'automne< /H3></li>
+            <li>< OL type="1">< LI>janvier</li>
+            <li>< LI>fevrier</li>
+            <li>< LI>mars< /OL></li>
+        </ul>
+        <li>
+            <h3>LES LIENS</h3>
+        <p>Html (Hyper Text Markup Language) est un langage hypertexte (et hypergraphique)
+        qui vous permet en cliquant sur un mot, généralement souligné (ou une image) de vous transporter :</p>
+            <ul>
+               <li>Vers un autre endroit du document.</li>
+               <li>Vers un autre fichier Html situé sur votre ordinateur.</li>
+               <li>Vers un autre ordinateur situé sur le Web.</li>
+               <img src="boom.png" alt="une capture d'ecran" align="right" width="25%">
+               <p>Ce système d'hypertexte vous est familier car il est également utilisé par les fichiers
+            d'aide de Windows. Ce sont ces liens qui vous permettent de surfer de page en page
+            et qui constituent l'essence des documents Html.
+            </p>
+            <li>La syntaxe de ces liens entre plusieurs pages, est simple mais entraînera de nombreux commentaires :</li>
+            <p>< A HREF="URL ou adresse">...</A>
+                Exemple:
+                < A HREF="exempleliste.html">suivant</A>
+            </p>
+        </ul>
+        </li>
+    <li>
+        <h3> LES IMAGES</h3>
+        <p>GIF ou JPEG?
+        Avant de passer aux balises, il faut savoir ce qui suit</p>
+        <p>Exemple d'image :</p>
+        <ul type="square">
+            <li>Les deux formats d'image (maximum 256 couleurs) reconnus sur le Web, sont le  format GIF (version 89a) et le format JPEG. Pour le format GIF, on retiendra la
+            caractéristique "entrelacé" qui permet de charger progressivement l'image lors de
+            l'ouverture de la page. Ces deux formats donnent des résultats assez équivalents bien
+            que JPG soit plutôt recommandé pour des images avec des tons nuancés ou
+            dégradés</li>
+            <li>
+                L'ennemi sur le Web, c'est la taille des images! Plus l'image sera grande, plus le temps
+                de chargement sera long... au risque de décourager vos visiteurs. Si cela est possible, une
+                image en 16couleurs peut très bien faire l'affaire.
+            </li>
+            <li>
+                Il n'est pas inutile de prévoir dans votre panoplie de compositeur Web, un logiciel de
+                retouche d'images. A ce propos « photoshop" a la triple qualité d'être disponible en
+                shareware, d'être très intuitif et d'être performant. En outre, un tel logiciel vous permettra
+                decomposer vos propres images et ainsi de personnaliser vos pages</li>
+
+            <p>Le code Html est :</p>
+            <li>< IMG SRC="Adresse de l'image"> Afficher l'image qui se trouve à l'adresse...</li>
+            <li>La balise image possède de nombreux attributs.</li>
+            <li>Dimensions width=? height=? Hauteur et largeur (en pixels)</li>
+            <li>border=? (en pixels) Bordure</li>
+            <IMG SRC="pirate.png" alt="une capture d'ecran" align="right" width="35%">
+            <li>align=top</li>
+            <li>align=middle</li>
+            <li>align=botton</li>
+            <li>align=left</li>
+            <li>align=right</li>
+            <p>Exemple :
+                < IMG SRC="pirate.gif" align=TOP>
+                Lien sur image
+                Les balises sont :
+            </p>
+            <li>< A HREF="fichier.html" >< IMG SRC="image.gif"></A></li>
+            <p>Remarquons que les images cliquables sont entourées d'une bordure.</p>
+        </ul>
+    </li>
+    <li>
+        <h3>LES ARRIÈRE-PLANS</h3>
+    <p>Le langage HTML permet d'agrémenter la présentation du document d'un arrière-plan coloré ou composé d'une image. Ce qui apporte un élément "artistique" à votre page. La balise à utiliser ne pose pas de problème :
+        : Couleur d'arrière-plan < BODY BGCOLOR="#$$$$$$">.
+    </p>
+    <p>Il existe d’autres balises qui sont prévues pour modifier les couleurs :</p>
+    <ul type="square">
+        <li>Couleur de texte :  < BODY TEXT="#$$$$$$"> </li>
+        <li>Couleur de lien : < BODY LINK="#$$$$$$"> </li>
+        <li>Lien visité :< BODY VLINK="#$$$$$$"></li>
+        <li>Lien actif : < BODY ALINK="#$$$$$$"> </li>
+        <p>Reprenons notre exemple en modifiant la balise body</p>
+        <li>< BODY BGCOLOR="#000088" TEXT="#FFFF00">< /BODY></li>
+        <p>
+            On peut aussi prévoir un fond en image.
+            Exemple :<br>
+            Texture d'arrière-plan < BODY BACKGROUND="Adresse de l’ image">
+        </p>
+    </ul>
+    </li>
+    <li>
+        <h3>LES TABLEAUX</h3>
+        En Html, les tableaux servent non seulement à aligner des chiffres mais surtout à
+        placer des éléments à l'emplacement que vous souhaitez. L'usage des tableaux est
+        donc très fréquent.<br>
+        Un tableau est composé de lignes et de colonnes qui forment les cellules du tableau.
+        Les balises de base sont donc :<br>
+        <img src="tab.png" alt="capture" align="right" width="35%">
+        Définition du tableau [Table] < TABLE>< /TABLE> Début et fin de tableau<br>
+        Définition d'une ligne [Table Row] < TR>< /TR> Début et fin de ligne<br>
+        Définition d'une cellule [Table Data] < TD>< /TD> Début et fin de cellule<br>
+        Exemple d’ application : Si vous souhaitez y adjoindre des bordures :<br>
+        Bordure de cadre [Border] < TABLE border=?>< /TABLE><br>
+        < TABLE border=1><br>
+        < TR>< TD>1< /TD>< TD>2< /TD>< /TR><br>
+        < TR>< TD>3< /TD>< TD>4< /TD>< /TR><br>
+        < /TABLE>
+    </li>
+    <li>
+        <h3>Les Formulaires</h3>
+        Une liste déroulante :<br>
+        < SELECT NAME="genre" SIZE="1"><br>
+        < OPTION VALUE="Madame" selected>Madame< /OPTION><br>
+        < OPTION VALUE="Mademoiselle">Mademoiselle< /OPTION><br>
+        < OPTION VALUE="Monsieur">Monsieur< /OPTION><br>
+        < /SELECT><br>
+        Des boutons radio : < INPUT TYPE="radio" NAME="Bouton choisi"<br>
+        VALUE="Contact téléphonique"><br>
+        Des cases à cocher : < INPUT TYPE="checkbox" NAME="Case coché"<br>
+        VALUE="Création de site"><br>
+        Un bouton d'envoi : < INPUT TYPE="submit" NAME="Submit" VALUE="A<br>
+        répondu à mon formulaire"><br>
+    </li>
+    <hr >
+    <li>
+        <H3>Les Cadres ( Frames)</H3>
+        <img src="frame.png" alt="capture" align="right" width="35%">
+        Exemple d’application:<br>
+    < !DOCTYPE HTML PUBLIC ><br>
+    < HTML><br>
+    < HEAD><br>
+    < TITLE>COURS HTML < /TITLE><br>
+    < /HEAD><br>
+    < FRAMESET COLS="25,25,50"><br>
+    < FRAME><br>
+    < FRAME><br>
+    < FRAME><br>
+    < /FRAMESET><br>
+    < /HTML><br>
+
+    </li>
+    </body>
+</html>

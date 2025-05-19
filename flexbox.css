@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    height: 10vh;
+    margin: 0 2px;
+
+}
+
+nav {
+    background-color: greenyellow;
+    text-align: center;
+    height: 10vh;
+    margin: 10px 2px;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    height: 70vh;
+    margin: 0 2px;
+}
+
+main div.content section:first-child {
+    background-color: rgb(151, 151, 248);
+    height: 34vh;
+    margin-bottom: 12px;
+}
+
+main div.content section:last-child {
+    background-color: rgb(227, 151, 248);
+    height: 34vh;
+}
+
+
+aside {
+    background-color: rgb(179, 222, 179);
+    text-align: center;
+    height: 70vh;
+    width: 40%;
+}
+
+div.content {
+    width: 60%;
+    margin-left: 10px;
+
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    height: 10vh;
+    margin-top: 10px;
+}

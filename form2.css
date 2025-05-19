@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+div.formulaire {
+    /* color: black; */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bolder; */
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px white;
+}
+
+
+div.inscription input[type="submit"] {
+    background-color: rgb(96, 185, 237);
+    color: white;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+div.htmlcss {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 100px;
+    margin: 0px 00px;
+}
+
+
+/* div.inscription {
+    margin: 0px 20px;
+    border
+} */
+
+/* div.htmlcss div:nth-child(2),
+div:last-child {
+    /* color: rgb(5, 5, 5); */
+font-weight: bolder;
+}
+
+*/ h1 {
+    font-weight: normal;
+}
+
+h1 div {
+
+    font-size: 3em;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="mailto:chabkarman@gmail.com" method="post">
+            <table border="1">
+                <tr>
+                    <td>Civilité</td>
+                    <td>
+                        <label for="mademoiselle">Mademoiselle</label>
+                        <input type="radio" id="mademoiselle" name="genre" value="Mademoiselle">
+                        <label for="madame">Madame</label>
+                        <input type="radio" id="madame" name="genre" value="Madame">
+                        <label for="monsieur">Monsieur</label>
+                        <input type="radio" id="monsieur" name="genre" value="Monsieur">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nom/Prenom</td>
+                    <td>
+                        <input type="text" placeholder="Entrer le nom...." name="nom" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adresse</td>
+                    <td>
+                        <input type="text" placeholder="Entrer l'adresse..." name="adresse">
+                    </td>
+                </tr>
+                <tr>
+                    <td>No_postal</td>
+                    <td>
+                        <input type="number" placeholder="Entrer le code postal..." name="code_postal">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pays</td>
+                    <td>
+                        <select name="pays" size="1">
+                            <option value="Djibouti">Djibouti</option>
+                            <option value="USA">USA</option>
+                            <option value="France">France</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plateforme</td>
+                    <td>
+                        <label for="windows">Windows</label>
+                        <input type="checkbox" name="plateforme" id="windows" value="Windows">
+                        <label for="macintosh">Macintosh</label>
+                        <input type="checkbox" name="plateforme" id="macintosh" value="Macintosh">
+                        <label for="unix">Unix</label>
+                        <input type="checkbox" name="plateforme" id="unix" value="Unix">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Applications</td>
+                    <td>
+                        <select name="applications" size="5">
+                            <option value="Bureautique">Bureautique</option>
+                            <option value="DAO">DAO</option>
+                            <option value="Statistique">Statistique</option>
+                            <option value="SGBD">SGBD</option>
+                            <option value="Internet">Internet</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Soumettre le formulaire">
+            <input type="reset" value="Effacer">
+        </form>
+    </body>
+</html>

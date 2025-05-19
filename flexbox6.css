@@ -1,0 +1,109 @@
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 5px;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 72, 129);
+    margin: 5px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+main div.pclass {
+    height: 30vh;
+    width: 10%;
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+main div.dclass {
+    width: 90%;
+    height: 80vh;
+}
+
+section {
+    background-color: rgb(115, 116, 116);
+}
+
+article {
+    background-color: rgb(51, 100, 126);
+}
+
+main div.dclass section:first-child {
+    height: 40vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+}
+
+main div.dclass section:last-child {
+    height: 40vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+main div.dclass section:last-child div.aside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 1px solid;
+    height: 100vh;
+}
+
+
+main div.dclass section:first-child div.ddclass {
+    width: 80%;
+    margin: 5px;
+
+}
+
+main div.dclass section:first-child div.ddclass article {
+    border: 1px solid;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: rgb(169, 62, 62);
+}
+
+main div.dclass section:first-child div.dddclass {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+main div.dclass section:first-child div.dddclass aside:first-child {
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+main div.dclass section:first-child div.dddclass aside:last-child {
+    margin-top: 10px;
+}

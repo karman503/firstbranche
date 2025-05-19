@@ -1,0 +1,73 @@
+header {
+    height: 10vh;
+    background-color: aqua;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 10vh;
+    background-color: aquamarine;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 70vh;
+    background-color: rgb(111, 79, 39);
+    display: flex;
+    flex-direction: row;
+}
+
+main div.class {
+    background-color: cadetblue;
+    height: 70vh;
+    width: 40%;
+}
+
+main div.class aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main div.classe {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 60%;
+}
+
+main div.classe section:first-child {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    margin: 5px;
+    background-color: rgb(169, 240, 242);
+}
+
+main div.classe section:last-child {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    margin: 5px;
+    background-color: chartreuse;
+}
